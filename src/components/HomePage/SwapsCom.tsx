@@ -14,7 +14,7 @@ export default function SwapsCom() {
           Swaps
         </h1>
         <p className="mt-2 text-lg text-gray-600">
-          Learn more about our vision and mission
+          Learn more about Swaps on Decentralized Exchanges
         </p>
       </div>
 
