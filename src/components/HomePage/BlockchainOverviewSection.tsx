@@ -6,21 +6,21 @@ export default function BlockchainOverviewSection() {
   const items = [
     {
       icon: "play",
-      subtitle: "All in one Platform",
-      title: "Platform for launching your ICO",
-      text: "Every transaction is rated by both parties, and the reputation of each.",
+      subtitle: "Plugin Design",
+      title: "Uses DeFi Composition",
+      text: "The ChainAI layer will implement a DeFi composition solution allowing a plugiun.",
     },
     {
       icon: "usb",
-      subtitle: "All in one Platform",
-      title: "Using Smart-Contracts",
-      text: "Smart contracts are an integral part of the CrypiBIT ecosystem.",
+      subtitle: "For any DEX",
+      title: "Integration via smart contract interfaces",
+      text: "The interface integration allows for any decentralized exchange (DEX) to use ChainAI",
     },
     {
       icon: "db",
-      subtitle: "All in one Platform",
-      title: "Fixed exchange rates",
-      text: "Global coverage and presence in all countries of the World.",
+      subtitle: "All types of trade",
+      title: "Volatile assets and Stablecoins",
+      text: "Trading history is across all types of constant function market makers.",
     },
   ];
 
@@ -29,15 +29,11 @@ export default function BlockchainOverviewSection() {
       {/* Header */}
       <div className="text-center max-w-3xl mx-auto mb-12">
         <h2 className="text-3xl font-bold text-gray-900">
-          Blockchain Company Overview
+          Reinforcement Learning
         </h2>
         <div className="w-12 h-1 bg-gradient-to-r from-blue-400 to-green-400 mx-auto my-3 rounded" />
         <p className="text-gray-600">
-          Built on proven security and technological record. A high level of
-          digital asset protection and safe record of transactions. Built on
-          fair-exchange protocols enabling cryptocurrency atomic swaps to
-          mitigate counter-party risk. Advisory and technology services to
-          execute third-party ICOs.
+          Reinforcement is type of machine learning which can learn via interactions. We use an agent environment paradigm to learn the best swap trades. These are implemented into a swap layer in the AMM hierarchy.
         </p>
       </div>
 

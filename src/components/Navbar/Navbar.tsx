@@ -5,6 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import NavBarAboutus from "@/components/Navbar/NavBarAboutus";
 import NavBarRL from "@/components/Navbar/NavBarRL";
+import NavBarSwaps from "@/components/Navbar/NavBarSwaps";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -45,6 +46,7 @@ const Navbar = () => {
         className={`${menuOpen ? "block" : "hidden"} lg:flex lg:items-center lg:w-auto w-full`}
       >
         <ul className="text-xl text-center items-center gap-x-3 pt-4 lg:text-lg lg:flex lg:pt-0">
+          <NavBarSwaps />
           <NavBarRL />
           <NavBarAboutus />
         </ul>
